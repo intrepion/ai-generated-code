@@ -4,7 +4,8 @@
   "description": "Two Sum problem implementation",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc --build src/main.ts --target es2020 --module commonjs --outDir dist",
+    "build": "tsc src/main.ts --target es2020 --module commonjs --outDir dist",
+    "test": "tsc src/test-simple.ts --target es2020 --module commonjs --outDir dist && node dist/test-simple.js",
     "start": "node dist/main.js"
   },
   "devDependencies": {

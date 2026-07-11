@@ -7,3 +7,6 @@ dependencies:
 # Dart SDK version
 environment:
   sdk: '^3.12.0'
+
+executables:
+  two_sum_app: bin/two_sum_app

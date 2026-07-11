@@ -1,2 +1,3 @@
 <Solution>
+  <Project Path="TwoSum.Core/TwoSum.Core.csproj" />
 </Solution>

@@ -1,0 +1,13 @@
+{
+  "name": "two-sum",
+  "version": "1.0.0",
+  "description": "Two Sum problem implementation",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc --build src/main.ts --target es2020 --module commonjs --outDir dist",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

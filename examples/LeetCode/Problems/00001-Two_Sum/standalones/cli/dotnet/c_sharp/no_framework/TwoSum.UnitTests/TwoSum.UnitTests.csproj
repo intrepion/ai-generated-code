@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TwoSum.Core\TwoSum.Core.csproj" />
+  </ItemGroup>
+
 </Project>

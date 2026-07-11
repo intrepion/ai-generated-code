@@ -1,0 +1,9 @@
+name: two_sum_app
+version: 0.1.0
+publish_to: 'none'
+dependencies:
+  test: ^1.16.0
+
+# Dart SDK version
+environment:
+  sdk: '^3.12.0'

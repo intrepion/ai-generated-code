@@ -9,24 +9,21 @@ This is a comprehensive collection of AI-generated code examples organized by pr
 ## Directory Structure
 
 ```
-.
-├── knowledge-bundle/
-│   ├── README.md
-│   ├── metadata/
-│   │   ├── catalog.json
-│   │   └── manifest.json
-│   ├── examples/
-│   │   ├── javascript/
-│   │   ├── python/
-│   │   ├── java/
-│   │   ├── go/
-│   │   ├── csharp/
-│   │   ├── php/
-│   │   ├── typescript/
-│   │   ├── ruby/
-│   │   ├── scala/
-│   │   └── swift/
-│   └── README.md
+knowledge-bundle/
+├── metadata/
+│   ├── catalog.json
+│   └── manifest.json
+├── examples/
+│   ├── javascript/
+│   ├── python/
+│   ├── java/
+│   ├── go/
+│   ├── csharp/
+│   ├── php/
+│   ├── typescript/
+│   ├── ruby/
+│   ├── scala/
+│   └── swift/
 └── README.md
 ```
 

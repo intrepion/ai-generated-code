@@ -1,6 +1,6 @@
 {
   "title": "AI Generated Code Knowledge Bundle",
-  "description": "A comprehensive collection of AI-generated examples organized by programming languages and frameworks.",
+  "description": "A comprehensive collection of AI-generated examples organized by programming languages and frameworks. Each example demonstrates best practices and common patterns in software development.",
   "version": "1.0.0",
   "license": "MIT",
   "authors": [
@@ -14,7 +14,9 @@
     "generated code",
     "examples",
     "programming languages",
-    "frameworks"
+    "frameworks",
+    "best practices",
+    "software patterns"
   ],
   "homepage": "https://github.com/intrepion/ai-generated-code",
   "repository": {
@@ -26,12 +28,15 @@
   },
   "categories": [
     "examples",
-    "ai-generated-code"
+    "ai-generated-code",
+    "software patterns"
   ],
   "tags": [
     "ai",
     "generated-code",
-    "examples"
+    "examples",
+    "programming-languages",
+    "frameworks"
   ],
   "created": "2026-07-10T00:00:00Z",
   "modified": "2026-07-10T00:00:00Z"

@@ -15,25 +15,25 @@ Create a To Do List application that allows users to manage their tasks with the
 Each action must include a confirmation step:
 
 1. **Viewing Items**
-   - Display list of all To Do Items
+   - Display either list of all To Do Items or empty message or error message
    - Each item should show: title, completion status, and unique identifier
 
 2. **Creating Items**
    - Accept input for new task title
    - Default completion status should be false (not completed)
-   - Confirmation before saving
+   - Display either newly created task or error message
 
 3. **Editing Items**
    - Modify the title of an existing To Do Item
-   - Confirmation before saving changes
+   - Display either newly updated task or error message
 
 4. **Toggling Completion**
    - Toggle completion status (true/false) for existing To Do Items
-   - Confirmation before updating
+   - Display either newly updated task or error message
 
 5. **Deleting Items**
    - Remove To Do Items from the system
-   - Confirmation before deletion
+   - Display either successful deletion or error message
 
 ## Requirements
 

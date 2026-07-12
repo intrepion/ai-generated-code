@@ -1,64 +1,43 @@
-# To Do List Project
+# To Do List
 
 ## Overview
 
-Create a To Do List application that allows users to manage their tasks with the following core functionality:
+Build a To Do List application that allows users to manage tasks. The application must support viewing the list, creating new items, editing an item's title, toggling completion status, and deleting an item. Every action should return a clear success or error message to the user.
 
-- View all To Do Items
-- Create new To Do Items
-- Edit To Do Item titles
-- Toggle completion status of To Do Items
-- Delete To Do Items
+## Functional Requirements
 
-## Required Features
+### View List
 
-Each action must include a confirmation step:
+- Display all items in the list, showing each item's title and completion status (e.g., completed or not).
+- If the list is empty, display a message indicating there are no items.
 
-1. **Viewing Items**
-   - Display either list of all To Do Items or empty message or error message
-   - Each item should show: title, completion status, and unique identifier
+### Create Item
 
-2. **Creating Items**
-   - Accept input for new task title
-   - Default completion status should be false (not completed)
-   - Display either newly created task or error message
+- Allow the user to add a new item with a title.
+- The new item should start as incomplete (not completed).
+- Return a success message confirming the item was created.
+- Return an error message if the title is empty or invalid.
 
-3. **Editing Items**
-   - Modify the title of an existing To Do Item
-   - Display either newly updated task or error message
+### Edit Item Title
 
-4. **Toggling Completion**
-   - Toggle completion status (true/false) for existing To Do Items
-   - Display either newly updated task or error message
+- Allow the user to change the title of an existing item by referencing the item (e.g., by its index or ID).
+- Return a success message confirming the title was updated.
+- Return an error message if the item does not exist or the new title is empty.
 
-5. **Deleting Items**
-   - Remove To Do Items from the system
-   - Display either successful deletion or error message
+### Toggle Completion
 
-## Requirements
+- Allow the user to toggle the completion status of an existing item (mark as done or undo marking as done).
+- Return a success message confirming the status was updated.
+- Return an error message if the item does not exist.
 
-- Must be programming language agnostic
-- Must be API architecture agnostic
-- Must be storage strategy agnostic
-- Must provide clear separation of concerns
-- Must handle errors gracefully
-- Must provide consistent data representation
+### Delete Item
 
-## Non-functional Requirements
+- Allow the user to remove an item from the list by referencing the item (e.g., by its index or ID).
+- Return a success message confirming the item was deleted.
+- Return an error message if the item does not exist.
 
-- User experience should be intuitive
-- Actions should be idempotent where possible
-- All operations should be traceable
-- Support for batch operations where applicable
+## Non-Functional Requirements
 
-## Design Considerations
-
-- Consider scalability and performance
-- Ensure data integrity
-- Plan for future extensibility
-- Think about security implications
-- Plan for data persistence without assuming a particular storage system
-
-## Expected Output
-
-The system should provide a consistent interface for managing To Do Items regardless of implementation language, API framework, or storage backend.
+- The application should handle edge cases (e.g., editing a non-existent item, toggling a non-existent item, deleting an empty list).
+- The application should provide clear, informative messages on success and error conditions for every operation.
+- The application should be language-agnostic, architecture-agnostic, and storage-agnostic — implement it in any language, with any API style, and using any storage mechanism.
